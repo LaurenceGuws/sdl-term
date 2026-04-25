@@ -1,6 +1,6 @@
-# sdl-term
+# howl-sdl-host
 
-Linux host for `howl-terminal`.
+Linux host application.
 
 Scope:
 - SDL windowing and input
@@ -8,5 +8,5 @@ Scope:
 - rendering integration (kept decoupled from SDL event/window code)
 
 Non-goals:
-- terminal semantic ownership (belongs to `howl-terminal`)
-- cross-host shared runtime ownership (belongs to shared modules)
+- terminal semantic ownership
+- cross-host shared runtime ownership

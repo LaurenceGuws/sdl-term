@@ -9,8 +9,8 @@ It is intentionally non-implementation-detailed.
 | --- | --- | --- |
 | `M0` | Repo Scaffold | Package compiles, tests run, authority/docs baseline exists. |
 | `M1` | SDL Shell Foundation | Stable SDL window loop, input pump, GL context, and present boundary. |
-| `M2` | Session Composition | `howl-session` is integrated with deterministic host tick boundaries. |
-| `M3` | Renderer Composition | `howl-render-gl` is integrated with clear frame input/output boundaries. |
+| `M2` | Session Composition | Shared session runtime is integrated with deterministic host tick boundaries. |
+| `M3` | Renderer Composition | Shared renderer backend is integrated with clear frame input/output boundaries. |
 | `M4` | Input Mapping Closure | Keyboard/mouse/paste mapping into session actions is explicit and stable. |
 | `M5` | Resize/Viewport Discipline | Resize, DPI, and viewport flow are deterministic and regression-tested. |
 | `M6` | Linux Platform Closure | Wayland/X11 behavior and Linux runtime integration are production-safe. |

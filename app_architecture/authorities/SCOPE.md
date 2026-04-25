@@ -1,11 +1,10 @@
 # SDL Term Scope Authority
 
-Purpose: define what `sdl-term` owns, what it does not own, and how it fits the
-Howl family.
+Purpose: define what this host repo owns and what it does not own.
 
 ## Product Identity
 
-`sdl-term` is a Linux host shell that composes shared Howl modules into a
+`howl-sdl-host` is a Linux host shell that composes shared Howl modules into a
 running terminal application.
 
 ## In Scope
@@ -13,12 +12,12 @@ running terminal application.
 - SDL window lifecycle and event loop ownership
 - SDL input capture and mapping to host actions
 - GL context creation and swap/present integration
-- Composition of `howl-session` + `howl-render-gl` in a deterministic host loop
+- Composition of shared session + renderer modules in a deterministic host loop
 - Host packaging/release ownership for this app
 
 ## Out of Scope
 
-- Terminal semantic ownership (`howl-terminal` authority)
-- Shared session runtime ownership (`howl-session` authority)
-- Shared OpenGL renderer ownership (`howl-render-gl` authority)
+- Terminal semantic ownership
+- Shared session runtime ownership
+- Shared renderer ownership
 - Cross-host policy ownership
